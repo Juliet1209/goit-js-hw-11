@@ -1,0 +1,99 @@
+*,
+*:before,
+*:after { 
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+}
+
+p, li, ul, ol{
+    margin: 0;
+    padding: 0;
+}
+
+input{
+    border: none;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 15px;
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-form {
+    padding: 15 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(10, 114, 114);
+}
+
+.search-form > input {
+    max-width: 200px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-right: 15px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a {
+    margin: 10px auto;
+    flex-basis: calc(100% / 4 - 20px);
+    text-decoration: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.photo-card {
+    // margin: 10px;
+    padding: 10px;
+}
+
+.photo-card > img {
+    // height: 200px;
+    height: auto;
+    width: 100%;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    text-align: center;
+    color: black;
+}
+
+.info-item {
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.info-item > b {
+    margin-bottom: 5px;
+}
+
+.load-more {
+    margin-top: 15px;
+    padding: 5px 10px;
+    display: none;
+    
+}
+
+button {
+    font-size: 16px;
+}
